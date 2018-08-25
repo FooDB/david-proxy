@@ -1,0 +1,30 @@
+{
+  "name": "david-proxy",
+  "version": "1.0.0",
+  "description": "Proxy for SDC application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FooDB/david-proxy.git"
+  },
+  "author": "David",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FooDB/david-proxy/issues"
+  },
+  "homepage": "https://github.com/FooDB/david-proxy#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bluebird": "^3.5.1",
+    "express": "^4.16.3",
+    "http-proxy-middleware": "^0.18.0",
+    "morgan": "^1.9.0",
+    "node-fetch": "^2.2.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  }
+}
